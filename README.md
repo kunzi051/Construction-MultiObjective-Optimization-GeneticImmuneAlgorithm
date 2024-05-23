@@ -32,26 +32,28 @@ drawfunction.m 为绘制两种测试函数并标注出最大值点
 
 模型求解结果：
 
-![解1 (1)](E:\MATLAB\Road\img\解1 (1).png)
 
-![解1 (2)](E:\MATLAB\Road\img\解1 (2).png)
 
-![解1 (3)](E:\MATLAB\Road\img\解1 (3).png)
+![解1 (1)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%A7%A31%20(1).png?raw=true)
 
-![解1 (4)](E:\MATLAB\Road\img\解1 (4).png)
+![解1 (2)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%A7%A31%20(2).png?raw=true)
+
+![解1 (3)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%A7%A31%20(3).png?raw=true)
+
+![解1 (4)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%A7%A31%20(4).png?raw=true)
 
 
 
 算法对比结果：
 
-![测试函数 (1)](E:\MATLAB\Road\img\测试函数 (1).png)
+![测试函数 (1)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E6%B5%8B%E8%AF%95%E5%87%BD%E6%95%B0%20(1).png?raw=true)
 
-![测试函数 (2)](E:\MATLAB\Road\img\测试函数 (2).png)
+![测试函数 (2)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E6%B5%8B%E8%AF%95%E5%87%BD%E6%95%B0%20(2).png?raw=true)
 
-![迭代曲线 (1)](E:\MATLAB\Road\img\迭代曲线 (1).png)
+![迭代曲线 (1)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%BF%AD%E4%BB%A3%E6%9B%B2%E7%BA%BF%20(1).png?raw=true)
 
-![迭代曲线 (2)](E:\MATLAB\Road\img\迭代曲线 (2).png)
+![迭代曲线 (2)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%BF%AD%E4%BB%A3%E6%9B%B2%E7%BA%BF%20(2).png?raw=true)
 
-![迭代曲线 (3)](E:\MATLAB\Road\img\迭代曲线 (3).png)
+![迭代曲线 (3)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%BF%AD%E4%BB%A3%E6%9B%B2%E7%BA%BF%20(3).png?raw=true)
 
-![迭代曲线 (4)](E:\MATLAB\Road\img\迭代曲线 (4).png)
+![迭代曲线 (4)](https://github.com/kunzi051/Road-MultiObjective-Optimization-GeneticImmuneAlgorithm/blob/main/img/%E8%BF%AD%E4%BB%A3%E6%9B%B2%E7%BA%BF%20(4).png?raw=true)
