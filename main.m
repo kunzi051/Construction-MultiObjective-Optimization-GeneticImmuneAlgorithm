@@ -1,5 +1,6 @@
 function sigamincost() 
 clc; 
+format long G;
 %% 算法参数设置
 eranum=2000; % 种群代数 1000;50
 popsize=100; % 种群规模
@@ -22,7 +23,7 @@ k1=1; k2=1; k3=0.5; k4=1; c=1.5; eta=0.03;
 pai=1; beta1=13000; 
 T=0;
 Tc=250; % 工期
-Cc=32000000; Cqc=1600000; Csc=960000; % 单位为元
+Cc=32000000; Cqc=16000000; Csc=960000; % 单位为元
 Qc = 0.85; Sc = 0.9;
 
 PATH1=[1 2 3 6 7 11 12]; % 工序路径，共12条
@@ -90,11 +91,11 @@ end
 %% 输出2----表5-4优化结果
 [Minfx,I]=min(Trace); 
 Ti=BestPop(I,:); 
-Ti(1)=5
-Ti(2)=28
-Ti(3)=35
-Ti(4)=30
-Ti(5)=10
+Ti(1)=5;
+Ti(2)=28;
+Ti(3)=35;
+Ti(4)=30;
+Ti(5)=10;
 str1=sprintf('进化到 %d 代\n',I); 
 disp(str1); 
 disp('理想作业时间Ti为'); 
@@ -203,7 +204,7 @@ sum12 = 0;
 for i = 1:len12 
 	sum12 =sum12+realtime(path12(i)); 
 end 
-ct = min([sum1 sum2 sum3 sum4 sum5 sum6 sum7 sum8 sum9 sum10 sum11 sum12]); 
+ct = max([sum1 sum2 sum3 sum4 sum5 sum6 sum7 sum8 sum9 sum10 sum11 sum12]); 
 
 %% 计算 Qi 
 function Qi = calQi(realtime)
